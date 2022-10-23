@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Offside&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-option-btn {
+  padding: 8px 16px;
+  background-color: #FDFFFF;
+  color: #A2ADAD;
+  border: 1px solid #A2ADAD;
+  cursor: pointer;
+}
+
+.search-option-btn:hover {
+  background-color: #E1E8EA;
+}
+
+.search-option-btn.active {
+  background-color: #CA4C2D;
+color: #FDFFFF;
+}
