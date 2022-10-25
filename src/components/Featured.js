@@ -87,6 +87,12 @@ button {
 color: #FDFFFF;
 cursor: pointer;
 border-radius: 4px;
+transition: 0.3s ease-in-out;
+
+&:hover {
+    background-color: #772822;
+    transition: 0.3s ease-in-out;
+}
 
 @media screen and (max-width: 1024px) {
     font-size: 31.25px;
@@ -166,6 +172,12 @@ cursor: pointer;
 border: none;
 background-color: #CA4C2D;
 color: #FDFFFF;
+transition: 0.3s ease-in-out;
+
+&:hover {
+    background-color: #772822;
+    transition: 0.3s ease-in-out;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -194,6 +206,12 @@ border: none;
 background-color: #CA4C2D;
 color: #FDFFFF;
 margin-right: 52px;
+transition: 0.3s ease-in-out;
+
+&:hover {
+    background-color: #772822;
+    transition: 0.3s ease-in-out;
+}
 
 @media screen and (max-width: 1024px) {
     width: 104px;

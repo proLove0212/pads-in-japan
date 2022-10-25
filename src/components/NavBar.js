@@ -59,11 +59,11 @@ const NavLink = styled(Link)`
 text-decoration: none;
 color: #FDFFFF;
 font-size: 16px;
-
+transition: 0.3s ease-in-out;
 
 &:hover {
     color: #CA4C2D;
-    
+    transition: 0.3s ease-in-out;
 }
 `;
 
@@ -99,6 +99,15 @@ padding: 12px 24px;
 font-size: 16px;
 margin-left: 12px;
 cursor: pointer;
+transition: 0.3s ease-in-out;
+
+&:hover {
+    border: 2px solid #772822;
+    background-color: #772822;
+    color: #FDFFF;
+    transition: 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 1024px) {
     display: none;
 }
@@ -111,6 +120,12 @@ display: none;
 background-color: transparent;
 color: #FDFFFF;
 border: none;
+transition: 0.3s ease-in-out;
+
+&:hover {
+    color: #CA4C2D;
+    transition: 0.3s ease-in-out;
+}
 
 @media screen and (max-width: 1024px) {
 display: initial;
@@ -119,7 +134,7 @@ display: initial;
 
 `
 
-export default function NavBar() {
+export default function NavBar({toggle}) {
     return (
        <NavBarOut>
         <NavLeft>
@@ -146,7 +161,7 @@ export default function NavBar() {
         <NavRight>
         <NavLink to="/"><SignupBtn>Sign Up</SignupBtn></NavLink>
         <NavLink to="/"><SigninBtn>Sign In</SigninBtn></NavLink> 
-            <SideMenuBtn>
+            <SideMenuBtn onClick={toggle}>
 <BiMenuAltRight/>
             </SideMenuBtn>
         </NavRight>

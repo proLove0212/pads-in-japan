@@ -12,24 +12,57 @@ const SearchRow = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
+
+@media screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+}
 `;
 
-const BtnCont = styled.div``;
+const BtnCont = styled.div`
+
+button {
+    @media screen and (max-width: 1024px) {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    width: 100%;
+}
+`;
 
 const OptionCont = styled.div`
+@media screen and (max-width: 1024px) {
+    width: 100%;
+}
+
 select {
     padding: 8px 16px;
     border: 1px solid #A2ADAD;
     color: #A2ADAD;
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+    }
+
+    
 }
 `;
 
 const SearchBtnCont = styled.div`
+
+@media screen and (max-width: 1024px) {
+    width: 100%;
+}
 button {
     padding: 8px 16px;
     background-color: #CA4C2D;
     color: #FDFFFF;
     border: 1px solid #A2ADAD;
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+    }
 }
 `;
 

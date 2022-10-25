@@ -99,6 +99,12 @@ border: none;
 font-size: 16px;
 border-radius: 4px;
 cursor: pointer;
+transition: 0.3s ease-in-out;
+
+&:hover {
+    background-color: #772822;
+    transition: 0.3s ease-in-out;
+}
 
 @media screen and (max-width: 428px) {
     width: 100%;
