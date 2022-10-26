@@ -26,6 +26,14 @@ button {
     border: none;
     top: 20px;
     right: 24px;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 61.04px;
+    }
+    
+    @media screen and (max-width: 430px) {
+       font-size: 25px;
+    }
 }
 `;
 
@@ -53,6 +61,14 @@ transition: 0.3s ease-in-out;
     color: #CA4C2D;
     transition: 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 1024px) {
+    font-size: 61.04px;
+}
+
+@media screen and (max-width: 430px) {
+   font-size: 25px;
+}
 `;
 
 const SignupBtn = styled.button`
@@ -71,6 +87,14 @@ transition: 0.3s ease-in-out;
     color: #FDFFF;
     transition: 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 1024px) {
+    font-size: 61.04px;
+}
+
+@media screen and (max-width: 430px) {
+   font-size: 25px;
+}
 `;
 
 const SigninBtn = styled.button`
@@ -88,6 +112,14 @@ transition: 0.3s ease-in-out;
     background-color: #772822;
     color: #FDFFF;
     transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+    font-size: 61.04px;
+}
+
+@media screen and (max-width: 430px) {
+   font-size: 25px;
 }
 `;
 

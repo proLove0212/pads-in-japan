@@ -39,9 +39,6 @@ font-family: 'Offside', cursive;
 font-size: 25px;
 text-decoration: none;
 color: #FDFFFF;
-
-
-
 `;
 
 const LinkGroup = styled.div`
@@ -129,9 +126,12 @@ transition: 0.3s ease-in-out;
 
 @media screen and (max-width: 1024px) {
 display: initial;
+ font-size: 61.04px;
 }
 
-
+@media screen and (max-width: 430px) {
+   font-size: 25px;
+}
 `
 
 export default function NavBar({toggle}) {

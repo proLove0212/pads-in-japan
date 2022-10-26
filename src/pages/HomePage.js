@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import Featured from "../components/Featured";
+import Footer from "../components/Footer";
 import NewPads from "../components/NewPads";
 import Newsletter from "../components/Newsletter";
 import SearchPads from "../components/SearchPad";
@@ -15,6 +16,7 @@ export default function HomePage() {
          <SearchPads/> 
          <NewPads/>
          <Newsletter/>
+         <Footer/>
         </HomePageMain>
     )
 }
